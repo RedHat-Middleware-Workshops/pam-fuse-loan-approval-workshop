@@ -1,0 +1,25 @@
+config:
+    renderer: markdown
+
+modules:
+  intro:
+    name: Introduction
+  use-case-overview:
+    name: Use Case Introduction
+  components-overview:
+    name: RHPAM Components and Architecture
+  workshop-environment:
+    name: Workshop Environment
+  # Removed temporarily until operator module is complete
+  # cloud-installation-continued:
+  #   name: Cloud installation continued
+  # verifying-installation:
+  #   name: Verifying the installation
+  accessing-pam:
+    name: Accessing Red Hat PAM
+  # authentication-authorization:
+  #  name: Business Central Security
+  rhpam-openshift:
+    name: Red Hat PAM on OpenShift Container Platform
+  finish:
+    name: Conclusion  

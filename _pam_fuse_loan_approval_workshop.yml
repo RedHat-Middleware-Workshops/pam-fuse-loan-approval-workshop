@@ -1,0 +1,41 @@
+---
+id: "pam_fuse_loan_approval_workshop"
+name: "Red Hat Process Automation Manager Workshop"
+
+content:
+  url: https://raw.githubusercontent.com/kmacedovarela/pam-fuse-loan-approval-workshop.git/master
+
+# vars:
+#   OPENSHIFT_DOCS_BASE: "https://docs.openshift.com/container-platform/4.5/welcome/index.html"
+#   DOWNLOAD_CLIENT: https://mirror.openshift.com/pub/openshift-v4/clients/oc/4.5/
+#   REMOTE_DEBUGGER_JDB: true
+#   REMOTE_DEBUGGER_JBDS: true
+#   REMOTE_DEBUGGER_IDEA: true
+#   OPENSHIFT_CONSOLE_URL: OPENSHIFT-CONSOLE-URL
+
+#   REMOTE_DEBUGGER_JDB: true
+#   REMOTE_DEBUGGER_JBDS: true
+#   REMOTE_DEBUGGER_IDEA: true
+#   MINISHIFT: false             # if labs are intended to run on minishift or CDK
+
+  #ECLIPSE_CHE_URL: "http://che-lab-infra.192.168.99.100.nip.io"
+  #GIT_URL: "http://gogs-lab-infra.192.168.99.100.nip.io"
+  # NEXUS_URL: "http://nexus.lab-infra.svc:8081/repository/maven-all-public"
+
+  # OPENSHIFT_USER: userX
+  # OPENSHIFT_PASWORD: PASSWORD
+
+modules:
+  activate:
+  - introduction
+  - users-groups
+  - project-creation
+  - domain-model
+  - creating-decisions
+  - group-assignment-decision
+  - creating-service
+  - creating-workflow
+  - user-forms
+  - process-mgmt-tracking
+  - task-inbox
+
