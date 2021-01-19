@@ -4,19 +4,19 @@ Next we will create User Forms to interact with the human tasks. We will set up 
 
 1. For this on the Process editor click on the following option and choose `Generate all Forms`.
 
-   ![Generate all forms](images/forms1.png)
+   ![Generate all forms]({% image_path forms1.png %})
 
    This will create a form with all possible values, we will now edit these forms to make sure we have the right fields.
 
 2. Go Back to the Asset Library view and filter by Forms. You should now see 3 forms generated.
 
-   [![image 2020 09 01 16 56 47 564](images/image/image-2020-09-01-16-56-47-564.png)]
+   [![image 2020 09 01 16 56 47 564]({% image_path image/image-2020-09-01-16-56-47-564.png %})]
 
 3. Now open up the Form com_myspace_loan_approval_LoanApplicant
 
    You can see the various fields possible for an `LoanApplicant`. Let us remove the field `Loan Pre Qualification`, `Loan Qualification` and `LoanGroupAssignment` by clicking on the three dots on the right side of the field. You can also rearrange the fields as you see fit.
 
-   ![User Form ](images/forms2.png)
+   ![User Form ]({% image_path forms2.png %})
 
    Save the changes.
 

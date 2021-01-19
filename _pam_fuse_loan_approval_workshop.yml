@@ -3,7 +3,7 @@ id: "pam_fuse_loan_approval_workshop"
 name: "Red Hat Process Automation Manager Workshop"
 
 content:
-#  url: https://raw.githubusercontent.com/kmacedovarela/pam-fuse-loan-approval-workshop.git/master
+  url: https://raw.githubusercontent.com/kmacedovarela/pam-fuse-loan-approval-workshop.git/master
 
 # vars:
 #   OPENSHIFT_DOCS_BASE: "https://docs.openshift.com/container-platform/4.5/welcome/index.html"

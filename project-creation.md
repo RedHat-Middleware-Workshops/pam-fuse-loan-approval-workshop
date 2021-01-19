@@ -8,13 +8,13 @@ To define and deploy a business process, we first need to create a new project i
 
 3. Click on **Design** to navigate to the Design perspective.
 
-   ![Design Option](images/design-option.png)
+   ![Design Option]({% image_path design-option.png %})
 
 4. In the Design perspective, create a new project. If your space is empty, this can be done by clicking on the blue **Add Project** button in the center of the page. If you already have projects in your space, you can click on the blue **Add Project** icon at the top right of the page.
 
 5. Give the project the name `loan-approval`, and the description "Loan Approval Process".
 
-   [![New Project form](images/new-project1.png)
+   [![New Project form]({% image_path new-project1.png %})
 
    -------
 

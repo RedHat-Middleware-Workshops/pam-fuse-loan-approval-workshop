@@ -4,16 +4,16 @@
 
    Click on the top section and choose the `Task Inbox`.
 
-   ![Task Inbox](images/task-inbox1.png)
+   ![Task Inbox]({% image_path task-inbox1.png %})
 
    There should be a task waiting, open it up. As you can see the task form shows up.
 
-   ![Task details](images/task-inbox2.png)
+   ![Task details]({% image_path task-inbox2.png %})
 
    You can see that the details section allows for `Priority` to be changed. This can be used in a reassignment strategy if need be.
 
    Let us now switch back to the `Work` tab, and click on the `Start` button.
 
-   ![Work on task](images/task-inbox3.png)
+   ![Work on task]({% image_path task-inbox3.png %})
 
    Now you can see additional options to `Complete`. Click on `Complete`. The task should now get completed.
