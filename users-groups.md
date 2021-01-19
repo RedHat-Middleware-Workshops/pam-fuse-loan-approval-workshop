@@ -2,7 +2,8 @@
 
 In order to demonstrate the assignment and reassignment features, we will set up 3 sample groups and some users. First, login to Business Central using the credentials provided.On the top right you will see an option for the settings view.
 
-[![add asset](images/add_asset.jpg)](image/add_asset.jpg)
+![add asset]({% image_path add_asset.jpg %})
+
 
 1. Now click on the option for `Users`
 

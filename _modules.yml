@@ -2,24 +2,26 @@ config:
     renderer: markdown
 
 modules:
-  intro:
+  introduction:
     name: Introduction
-  use-case-overview:
-    name: Use Case Introduction
-  components-overview:
-    name: RHPAM Components and Architecture
-  workshop-environment:
-    name: Workshop Environment
-  # Removed temporarily until operator module is complete
-  # cloud-installation-continued:
-  #   name: Cloud installation continued
-  # verifying-installation:
-  #   name: Verifying the installation
-  accessing-pam:
-    name: Accessing Red Hat PAM
-  # authentication-authorization:
-  #  name: Business Central Security
-  rhpam-openshift:
-    name: Red Hat PAM on OpenShift Container Platform
-  finish:
-    name: Conclusion  
+  users-groups:
+    name: User and Groups Management
+  project-creation:
+    name: Creating a new Project
+  domain-model:
+    name: The Domain Model
+  creating-decisions:
+    name: Automating Decisions
+  group-assignment-decision:
+    name: Automating the Group Assignment Decision 
+  creating-service:
+    name: Creating a Fuse Service
+  creating-workflow:
+    name: Creating the Process
+  user-forms:
+    name: User Forms
+  process-mgmt-tracking:
+    name: Managing and Tracking Processes
+  task-inbox:
+    name: Task inbox
+
