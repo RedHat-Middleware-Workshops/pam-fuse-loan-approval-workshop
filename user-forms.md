@@ -10,7 +10,7 @@ Next we will create User Forms to interact with the human tasks. We will set up 
 
 2. Go Back to the Asset Library view and filter by Forms. You should now see 3 forms generated.
 
-   [![image 2020 09 01 16 56 47 564]({% image_path image/image-2020-09-01-16-56-47-564.png %})]
+   ![User forms 2]({% image_path forms3.png %})
 
 3. Now open up the Form com_myspace_loan_approval_LoanApplicant
 

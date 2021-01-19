@@ -16,7 +16,7 @@ Now let us create a simple Fuse service to lookup customer profile information. 
    https://github.com/snandakumar87/customer-profile-service
    ```
 
-   ![Code Ready import from git]({% image_path crs3.png %})]
+   ![Code Ready import from git]({% image_path crs3.png %})
 
    Follow along the wizard with the default values and the project should start to load up.
 
@@ -26,7 +26,7 @@ Now let us create a simple Fuse service to lookup customer profile information. 
 
 4. Next let us explore the project structure. The source files can be found under /src/main/java. RestJavaDslApplication is a simple Spring boot Application class. We will use a simple helper class that enables us to lookup customer class from a data source. In this example, for the sake of simplicity we will assume it from a local hashmap. Open up the ProfileLookupBean.java
 
-   ![Profile Lookup Bean]({% image_path crs5.png %})]
+   ![Profile Lookup Bean]({% image_path crs5.png %})
 
    Notice that we have loaded up a sample hashmap with customer class for 5 users. In the section marked `//TODO lookup customer profile` define the following.
 
@@ -65,4 +65,3 @@ Now let us create a simple Fuse service to lookup customer profile information. 
 
    This should result in a response "SILVER". Next let us define our workflow.
 
-### 

@@ -44,5 +44,5 @@
 
    [image 2020 09 01 13 42 52 175]({% image_path image-2020-09-01-13-42-52-175.png %})
 
-   [![Decision Table Values]({% image_path group-assignment-dt-values.png %})
+   ![Decision Table Values]({% image_path group-assignment-dt-values.png %})
 

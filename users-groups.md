@@ -47,7 +47,7 @@ In order to demonstrate the assignment and reassignment features, we will set up
 
 9. Click on the `New Group` option. Provide a name for the group `seniorUserAgent.
 
-   [![image 2020 09 01 08 04 32 270]({% image_path image-2020-09-01-08-04-32-270.png %})
+   ![image 2020 09 01 08 04 32 270]({% image_path image-2020-09-01-08-04-32-270.png %})
 
 10. Now you should see the list of users, show up. Choose the user `John` and click on `Add Selected User`.
 

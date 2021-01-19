@@ -17,5 +17,3 @@ In this lab we will create an Loan Approval process.
 - Customer initiates the Loan Approval request.
 - Pre Qualification checks are applied to the loan request.
 - If the pre-qualification was succesful, then a suitable loan agent group is identified, the loan request is then assigned to them for approval.
-
-## 

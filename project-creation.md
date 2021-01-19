@@ -14,7 +14,7 @@ To define and deploy a business process, we first need to create a new project i
 
 5. Give the project the name `loan-approval`, and the description "Loan Approval Process".
 
-   [![New Project form]({% image_path new-project1.png %})
+   ![New Project form]({% image_path new-project1.png %})
 
    -------
 

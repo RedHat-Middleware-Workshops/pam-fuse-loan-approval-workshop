@@ -20,7 +20,7 @@ We will use the *Guided Decision Table* asset.
 
 2. To Add a condition colum click on the *Insert Column* button. This will open up the wizard. Choose the *Add a Condition* option and click on *Next*
 
-   <img src="{% image_path new-gdt3.png" alt="GDST Wizard 1" style="zoom:80%;" />
+   ![GDST Wizard 2]({% image_path new-gdt3.png %})
 
    First we need to import the data objects which we will be using for the rule. For this click on the *Create a new Fact Pattern* button.
 

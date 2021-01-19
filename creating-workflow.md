@@ -54,69 +54,69 @@ Now that we have created all necessary pieces, we will now define the process. W
 kcontext.setVariable("loanApplicant.loanQualification",true);
    ```
 
-   [![Script Task 2]({% image_path wf-script2.png %})]
+   ![Script Task 2]({% image_path wf-script2.png %})
    
    Finally we will define a end node to end this part of the flow.
 
-   [![End Event]({% image_path wf-end-event.png %})]
+   ![End Event]({% image_path wf-end-event.png %})
 
    Now we will connect all of these nodes using arrows. To connect any node click on the node and choose the context help displayed around the node to choose the arrow.
 
-   [![New association]({% image_path wf-link.png %})]
+   ![New association]({% image_path wf-link.png %})
 
    The process should look like this.
 
-   [![Workflow First Version]({% image_path wf-v1.png %})]
+   ![Workflow First Version]({% image_path wf-v1.png %})
 
 9. Next we will define the *Loan Pre-Qualification* node. For this we will need to choose the *Business Rule* node. Click on the left side process palette on the Task(Rectangle) option and drag drop the node on to the canvas.
 
-   [![Business Rule Task]({% image_path wf-rules.png %})]
+   ![Business Rule Task]({% image_path wf-rules.png %})
 
    Now click on the node and edit the properties on the right side pane. We will give it a name and rule flow group as below.
 
-   [![Rules task Properties]({% image_path wf-rules2.png %})]
+   ![Rules task Properties]({% image_path wf-rules2.png %})
 
    Next we will define the Inputs/Ouputs for the Rule. For this scroll down to the *Data Assignments* section and click on the Assignments. We will map the `loanApplicant` as input and the `loanApplicant` as output.
 
-   [![Rules Task Data Assignments]({% image_path wf-rules3.png %})]
+   ![Rules Task Data Assignments]({% image_path wf-rules3.png %})
 
    Next connect the nodes as below.
 
-   [![Connect Business Rule Node]({% image_path wf-v2.png %})]
+   ![Connect Business Rule Node]({% image_path wf-v2.png %})
 
 10. Now click on the gateway, and define the default path as below.
 
-    [![Gateway selection]({% image_path wf-gateway3.png %})]
+    ![Gateway selection]({% image_path wf-gateway3.png %})
 
     We will also define the path for the Auto approval. For this click on the arrow that connects the gateway to the Auto Approve task. On the Implementation/Execution section, define the condition for filtering PLATINUM customers.
 
-    [![Gateway conditions]({% image_path wf-gateway4.png %})]
+    ![Gateway conditions]({% image_path wf-gateway4.png %})
 
 11. Next we need to define a gateway to filter only applicants with succesful Pre Qualification check. Click on the Rhombus from the process palette(on the left) and choose the Exclusive.
 
-    [![Exclusive Gateway]({% image_path wf-gateway5.png %})]
+    ![Exclusive Gateway]({% image_path wf-gateway5.png %})
 
 12. Next we will need to invoke the Loan Group Assignment. For this click on the *Task* node from the process palette(on the left) and choose the *Business Rule* node.
 
     We will edit the name and add the Rule Flow group as below.
 
-    [![Business Rule Group Assignment]({% image_path wf-rules4.png %})]
+    ![Business Rule Group Assignment]({% image_path wf-rules4.png %})
 
     We will add the Assignment as we did in the previous step with the following definition.
 
-    [![Business Rule Task inputs and outputs]({% image_path wf-rules5.png %})]
+    ![Business Rule Task inputs and outputs]({% image_path wf-rules5.png %})
 
 13. We will also choose the Red circle from the process palette(on the left) and choose the *End* event. Now we will connect the arrows between the *Loan PreQualification*, gateway and the *Group Assignment* as below.
 
-    [![End Node]({% image_path wf-end-event2.png %})]
+    ![End Node]({% image_path wf-end-event2.png %})
 
     We will also need to define the logic for the gateway, for this click on the arrow to the *Group Assignment* and expand the *Implementation/Execution* section. Here we will define the logic as below.
 
-    [![Gateway path]({% image_path wf-gateway6.png %})]
+    ![Gateway path]({% image_path wf-gateway6.png %})
 
     We will define the default path for the gateway as End, as below.
 
-    [![Default route]({% image_path wf-gateway7.png %})]
+    ![Default route]({% image_path wf-gateway7.png %})
 
 14. Last we will define a human task for the Loan Manager approval. For this click on the *Task* node from the process palette(on the left) and click on the *User* task. Drag drop the node on to the canvas.
 
@@ -126,17 +126,17 @@ kcontext.setVariable("loanApplicant.loanQualification",true);
     #{loanApplicant.loanGroupAssignment}
     ```
 
-    [![Groups assignment]({% image_path wf-ht1.png %})]
+    ![Groups assignment]({% image_path wf-ht1.png %})
 
-    [![User Task]({% image_path wf-ht2.png %})]
+    ![User Task]({% image_path wf-ht2.png %})
 
     Next scroll down to the *Assignments* section and add the following assignment.
 
-    [![User Task Data Assignment]({% image_path wf-ht3.png %})]
+    ![User Task Data Assignment]({% image_path wf-ht3.png %})
 
 15. Finally connect the `Loan Approval` task with the end node and connect the arrows.
 
-    [![Worfklow Final]({% image_path wf-v3.png %})]
+    ![Worfklow Final]({% image_path wf-v3.png %})
 
 16. Finally click on *Validate* and it should be succesful.
 
