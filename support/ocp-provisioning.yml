@@ -28,9 +28,9 @@ spec:
           - containerPort: 8080
         env:
         - name: CONTENT_URL_PREFIX
-          value: "https://raw.githubusercontent.com/jbossdemocentral/pam-fuse-loan-approval-workshop/master/"
+          value: "https://raw.githubusercontent.com/RedHat-Middleware-Workshops/pam-fuse-loan-approval-workshop/master/"
         - name: WORKSHOPS_URLS
-          value: "https://raw.githubusercontent.com/jbossdemocentral/pam-fuse-loan-approval-workshop/master/_pam_fuse_loan_approval_workshop.yml"
+          value: "https://raw.githubusercontent.com/RedHat-Middleware-Workshops/pam-fuse-loan-approval-workshop/master/_pam_fuse_loan_approval_workshop.yml"
         - name: LOG_TO_STDOUT
           value: "true"
 ---
