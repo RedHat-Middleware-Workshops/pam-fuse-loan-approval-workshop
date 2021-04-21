@@ -100,7 +100,7 @@ We will use the *Guided Decision Table* asset.
 
    ![Business Rules]({% image_path gdt-rules2.png %})
 
-   ![Business Rules]({% image_path gdt-rules2.png %})
+   ![Business Rules]({% image_path gdt-rules3.png %})
 
    If you need to remove any of the cell values which you might have wrongly entered, right click on the cell and click on `Delete Cell`. If you need delete the whole row, select the row and right click to `Delete row(s)`
 
